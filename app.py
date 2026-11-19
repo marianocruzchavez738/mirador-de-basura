@@ -16,7 +16,7 @@ st.markdown("""
 
 st.title("Panel de inferencia YOLO")
 st.caption("Selecciona uno o más modelos y elige un modo de entrada para ejecutar la detección.")
-st.write("El mejor modelo es el basurav2 hasta ahora")
+st.write("El mejor modelo es el basurav10 hasta ahora")
 
 # Barra lateral: modelos (con el +) y confianza mínima, compartidos por todas las pestañas
 modelos = selector_modelos()
