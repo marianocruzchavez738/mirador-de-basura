@@ -1,0 +1,25 @@
+[project]
+name = "computervision2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "marianocruzchavez738@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "av>=19.0.2",
+    "numpy>=2.5.4",
+    "opencv-python>=5.0.0.93",
+    "pillow>=13.0.0",
+    "streamlit>=1.67.0",
+    "streamlit-webrtc>=0.79.1",
+    "ultralytics>=8.4.212",
+]
+
+[project.scripts]
+computervision2 = "computervision2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
